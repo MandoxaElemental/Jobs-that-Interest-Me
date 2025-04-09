@@ -15,7 +15,7 @@ export default function Home() {
           <div className="px-20 py-5 text-center">
           <p>NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Their work in AI and
           digital twins is transforming the world's largest industries and profoundly impacting society.</p>
-            <Link href={''} className="underline text-blue-600">Job Opportunity</Link>
+            <Link href={'#'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
           </div>
         </TabItem>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="px-20 py-5 text-center">
           <p>Create world-changing technology that improves the life of every person on the planet.
             Intel underpins everyday life. We design and manufacture technology that helps us all connect, create, and achieve great things—together.</p>
-            <Link href={''} className="underline text-blue-600">Job Opportunity</Link>
+            <Link href={'#'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
         </div>
         </TabItem>
@@ -37,7 +37,7 @@ export default function Home() {
         <Image src={"/assets/Rakuten.png"} alt='rakuten' width={300} height={30} className="p-5"/>
           </div>
           <div className="px-20 py-5 text-center">
-          <p>Since their founding in 1999, Rakuten has helped shape the way people shop online, offering Cash Back, deals and shopping rewards on the world’s largest selection of products and services. To date, our 20M+ members in the U.S. have earned over $3.2B in Cash Back at their favorite stores.</p>
+          <p className="font-semibold text-2xl">Since their founding in 1999, Rakuten has helped shape the way people shop online, offering Cash Back, deals and shopping rewards on the world's largest selection of products and services. To date, our 20M+ members in the U.S. have earned over $3.2B in Cash Back at their favorite stores.</p>
           <Link href={'https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenRewards/details/Software-Engineer---Web_1026157?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           <div className="px-20 py-5 text-center">
             <p>Costco is a membership warehouse club, dedicated to bringing our members the best possible prices on quality brand-name merchandise. With hundreds of locations worldwide, Costco provides a wide selection of merchandise, plus the convenience of specialty departments and exclusive member services, all designed to make your shopping experience a pleasurable one.</p>
-            <Link href={''} className="underline text-blue-600">Job Opportunity</Link>
+            <Link href={'#'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
         </div>
         </TabItem>
