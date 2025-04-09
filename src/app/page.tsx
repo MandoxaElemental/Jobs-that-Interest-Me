@@ -15,7 +15,7 @@ export default function Home() {
           <div className="px-20 py-5 text-center">
           <p className="font-semibold text-xl">NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Their work in AI and
           digital twins is transforming the worlds largest industries and profoundly impacting society.</p>
-            <Link href={'#'} className="underline text-blue-600">Job Opportunity</Link>
+            <Link href={'https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Software-Engineer_JR1991613?q=software+engineer'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
           </div>
         </TabItem>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="px-20 py-5 text-center">
           <p className="font-semibold text-xl">Create world-changing technology that improves the life of every person on the planet.
             Intel underpins everyday life. We design and manufacture technology that helps us all connect, create, and achieve great things—together.</p>
-            <Link href={'#'} className="underline text-blue-600">Job Opportunity</Link>
+            <Link href={'https://intel.wd1.myworkdayjobs.com/en-US/External/details/Software-Application-Engineer_JR0271818?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
           </div>
         </div>
         </TabItem>
