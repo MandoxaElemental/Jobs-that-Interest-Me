@@ -215,7 +215,7 @@ export default function Home() {
                 Health insurance 
                 </li>
                 <li>
-                Eorker's accident compensation insurance 
+                Eorker&aposs accident compensation insurance 
                 </li>
                 <li>
                 Unemployment insurance 
@@ -378,7 +378,7 @@ export default function Home() {
                 Eight paid holidays
                 </li>
                 <li>
-                One paid floating holiday to allow employees to observe a day that's meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
+                One paid floating holiday to allow employees to observe a day that&aposs meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
                 </li>
                 </ul>
               </AccordionContent>
