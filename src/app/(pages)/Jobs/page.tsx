@@ -363,11 +363,13 @@ export default function Jobs() {
           <p className='p-3 text-xl font-semibold'>Software Engineer - Web</p>
           <Link href={'https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenRewards/details/Software-Engineer---Web_1026157?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
             <div className='flex justify-around py-5'>
+              <Image src={"/assets/js.png"} alt='javascript' width={50} height={50}/>
+              <Image src={"/assets/ts.png"} alt='typescript' width={50} height={50}/>
               <Image src={"/assets/java.png"} alt='java' width={50} height={50}/>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
               <Image src={"/assets/golang.png"} alt='golang' width={50} height={25}/>
               <Image src={"/assets/react.png"} alt='react' width={50} height={25}/>
-              <Image src={"/assets/node.png"} alt='node' width={50} height={25}/>
+              <Image src={"/assets/next.png"} alt='node' width={50} height={25}/>
             </div>
               <p className="text-slate-500 text-left">Notes: Need to learn Java, Python, and Go</p>
             </div>
