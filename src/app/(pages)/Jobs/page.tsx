@@ -366,6 +366,8 @@ export default function Jobs() {
               <Image src={"/assets/java.png"} alt='java' width={50} height={50}/>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
               <Image src={"/assets/golang.png"} alt='golang' width={50} height={25}/>
+              <Image src={"/assets/react.png"} alt='react' width={50} height={25}/>
+              <Image src={"/assets/node.png"} alt='node' width={50} height={25}/>
             </div>
               <p className="text-slate-500 text-left">Notes: Need to learn Java, Python, and Go</p>
             </div>
