@@ -33,5 +33,5 @@
 ### Jobs That Interest You - Vercel Link:
 [Jobs That Interest You - Vercel Link](https://jobs-that-interest-me.vercel.app/)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Karen Cadavos
+> Comments: Interesting design! I  like how you utilized existing tailwind components . One thing missing is the routing that is routing that is part of the project requirement. What I suggest is split your tab items into diffrent pages and then route them from your navbar component. Everything else looks good!
