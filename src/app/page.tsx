@@ -7,8 +7,8 @@ export default function Home() {
         <h1 className="text-3xl pb-2 font-bold">
       The Jobs that Interest Me
         </h1>
-        <p className='pb-2'>Gianpaolo Reinares</p>
-      <Button className="bg-black hover:bg-white hover:text-slate-500" href="/Jobs">Begin</Button>
+        <p className='pb-2 text-xl'>Gianpaolo Reinares</p>
+      <Button className="bg-black hover:bg-white hover:text-slate-500" href="/Nvidia">Begin</Button>
       </div>
     </div>
   );
