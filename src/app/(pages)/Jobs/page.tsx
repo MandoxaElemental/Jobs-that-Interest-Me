@@ -114,11 +114,16 @@ export default function Jobs() {
               </AccordionContent>
             </AccordionPanel>
           </Accordion>
+          <div className='flex justify-center'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Engineer</p>
             <Link href={'https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Software-Engineer_JR1991613?q=software+engineer'} className="underline text-blue-600">Job Opportunity</Link>
-            <div className='flex justify-around px-50 py-5'>
+            <div className='flex justify-around py-5'>
               <Image src={"/assets/cpp.png"} alt='c++' width={50} height={50}/>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
+            </div>
+            <p className="text-slate-500 text-left">Notes: Need to learn C++ and Python</p>
+            </div>
             </div>
           </div>
           </div>
@@ -203,13 +208,18 @@ export default function Jobs() {
               </AccordionContent>
             </AccordionPanel>
           </Accordion>
+          <div className='flex justify-center'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Application Engineer</p>
             <Link href={'https://intel.wd1.myworkdayjobs.com/en-US/External/details/Software-Application-Engineer_JR0271818?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
-            <div className='flex justify-around px-50 py-5'>
+            <div className='flex justify-around py-5'>
               <Image src={"/assets/c.png"} alt='c' width={50} height={50}/>
               <Image src={"/assets/cs.png"} alt='c#' width={50} height={50}/>
               <Image src={"/assets/cpp.png"} alt='c++' width={50} height={50}/>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
+            </div>
+              <p className="text-slate-500 text-left">Notes: Need to learn C, C++ and Python</p>
+            </div>
             </div>
           </div>
         </div>
@@ -269,12 +279,17 @@ export default function Jobs() {
               </AccordionContent>
             </AccordionPanel>
           </Accordion>
+          <div className='flex justify-center'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Engineer - Web</p>
           <Link href={'https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenRewards/details/Software-Engineer---Web_1026157?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
-            <div className='flex justify-around px-50 py-5'>
+            <div className='flex justify-around py-5'>
               <Image src={"/assets/java.png"} alt='java' width={50} height={50}/>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
               <Image src={"/assets/golang.png"} alt='golang' width={50} height={25}/>
+            </div>
+              <p className="text-slate-500 text-left">Notes: Need to learn Java, Python, and Go</p>
+            </div>
             </div>
           </div>
         </div>
@@ -341,12 +356,18 @@ export default function Jobs() {
           </Accordion>
             
           </div>
+          <div className='flex justify-center'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+                
           <p className='p-3 text-xl font-semibold'>Backend Software Engineer, Diagnostics</p>
           <Link href={'https://www.tesla.com/careers/search/job/internship-backend-software-engineer-diagnostics-fall-2025--240872'} className="underline text-blue-600">Job Opportunity</Link>
-            <div className='flex justify-around px-50 py-5'>
+            <div className='flex justify-around py-5'>
               <Image src={"/assets/python.png"} alt='python' width={50} height={50}/>
               <Image src={"/assets/golang.png"} alt='golang' width={50} height={25}/>
               <Image src={"/assets/django.png"} alt='django' width={50} height={50}/>
+            </div>
+              <p className="text-slate-500 text-left">Notes: Need to learn Python, Go and Django</p>
+            </div>
             </div>
           </div>
         </div>
@@ -424,9 +445,13 @@ export default function Jobs() {
               </AccordionContent>
             </AccordionPanel>
           </Accordion>
+          <div className='flex justify-center'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Any Position</p>
-
             <Link href={'https://cta.cadienttalent.com/index.jsp?POSTING_ID=9129789790&LOCATION_ID=9129639552&locale=en_US&SEQ=postingLocationDetails&applicationName=CostcoNonReqExt'} className="underline text-blue-600">Job Opportunity</Link>
+            <p className="text-slate-500 text-left">Notes: It would be nice to work at Costco</p>
+            </div>            
+          </div>
           </div>
         </div>
         </TabItem>
