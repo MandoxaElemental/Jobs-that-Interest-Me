@@ -1,4 +1,4 @@
-import { Accordion, AccordionContent, AccordionPanel, AccordionTitle, TabItem, Tabs } from "flowbite-react";
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
 
