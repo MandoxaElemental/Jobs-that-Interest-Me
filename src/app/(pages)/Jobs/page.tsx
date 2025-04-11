@@ -17,7 +17,7 @@ export default function Jobs() {
           <div className="px-20 py-5 text-center">
           <p className='pb-3 font-semibold text-lg'>Salary Range: $165,000 - $320,000</p>
           <p className="font-semibold text-xl pb-5">NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Their work in AI and
-          digital twins is transforming the worlds largest industries and profoundly impacting society.</p>
+          digital twins is transforming the world`&apos;`s largest industries and profoundly impacting society.</p>
 
           <Accordion collapseAll className='bg-white'>
             <AccordionPanel>
@@ -312,7 +312,7 @@ export default function Jobs() {
                 Health insurance 
                 </li>
                 <li>
-                Workers accident compensation insurance 
+                Worker`&apos;`s accident compensation insurance 
                 </li>
                 <li>
                 Unemployment insurance 
@@ -555,7 +555,7 @@ export default function Jobs() {
                 Eight paid holidays
                 </li>
                 <li>
-                One paid floating holiday to allow employees to observe a day thats meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
+                One paid floating holiday to allow employees to observe a day that`&apos;`s meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
                 </li>
                 </ul>
               </AccordionContent>
