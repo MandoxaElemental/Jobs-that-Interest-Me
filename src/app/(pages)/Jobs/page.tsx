@@ -312,7 +312,7 @@ export default function Jobs() {
                 Health insurance 
                 </li>
                 <li>
-                Worker&aposs accident compensation insurance 
+                Workers accident compensation insurance 
                 </li>
                 <li>
                 Unemployment insurance 
@@ -491,7 +491,7 @@ export default function Jobs() {
               <AccordionContent>
                 <div className='p-2'>
               <ul className='list-disc text-left'>
-                    <li>Doesn't require a background in web development</li>
+                    <li>Doesnt require a background in web development</li>
                     <li>Stable Job while looking for a job in programing</li>
                     <li>Great Benefits</li>
                     <li>Chicken Paremsan</li>
@@ -555,7 +555,7 @@ export default function Jobs() {
                 Eight paid holidays
                 </li>
                 <li>
-                One paid floating holiday to allow employees to observe a day that&aposs meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
+                One paid floating holiday to allow employees to observe a day thats meaningful to them, e.g., Juneteenth, Indigenous Peoples Day, Veterans Day
                 </li>
                 </ul>
               </AccordionContent>
