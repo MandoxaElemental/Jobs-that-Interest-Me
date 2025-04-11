@@ -18,8 +18,22 @@ export default function Jobs() {
           <p className='pb-3 font-semibold text-lg'>Salary Range: $165,000 - $320,000</p>
           <p className="font-semibold text-xl pb-5">NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Their work in AI and
           digital twins is transforming the worlds largest industries and profoundly impacting society.</p>
-          <Accordion collapseAll>
+
+          <Accordion collapseAll className='bg-white'>
             <AccordionPanel>
+            <AccordionTitle>Why do I Want to Work at: Nvidia?</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Headquarters located in Santa Clara</li>
+                    <li>One of the leading tech companies in the industry</li>
+                    <li>Great Benefits</li>
+                    <li>Opportunity to make connections within the industry</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
+              <AccordionPanel>
               <AccordionTitle>Benefits</AccordionTitle>
               <AccordionContent>
                 <ul className="grid grid-cols-2 text-left">
@@ -113,9 +127,22 @@ export default function Jobs() {
                 </ul>
               </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel>
+            <AccordionTitle>Personal Goals</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Make Connections</li>
+                    <li>Use this as an opportunity to springboard into either a higher position or another company</li>
+                    <li>Keep up to date with the latest developments in the industry</li>
+                    <li>Further my Education</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
           </Accordion>
           <div className='flex justify-center'>
-            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg/30 bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Engineer</p>
             <Link href={'https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Software-Engineer_JR1991613?q=software+engineer'} className="underline text-blue-600">Job Opportunity</Link>
             <div className='flex justify-around py-5'>
@@ -139,11 +166,25 @@ export default function Jobs() {
             <p className='pb-3 font-semibold text-lg'>Salary Range: $155,000 - $225,000 </p>
           <p className="font-semibold text-xl pb-5">Create world-changing technology that improves the life of every person on the planet.
             Intel underpins everyday life. We design and manufacture technology that helps us all connect, create, and achieve great things—together.</p>
-            <Accordion collapseAll>
+            <Accordion collapseAll className='bg-white'>
             <AccordionPanel>
+            <AccordionTitle>Why do I Want to Work at: Intel?</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+              <ul className='list-disc text-left'>
+                    <li>Headquarters Located in Santa Clara</li>
+                    <li>One of the leading tech companies in the industry</li>
+                    <li>Lower skill ceiling to join compared with other companies</li>
+                    <li>Great Benefits</li>
+                    <li>Opportunity to make connections within the industry</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
+              <AccordionPanel>
               <AccordionTitle>Benefits</AccordionTitle>
               <AccordionContent>
-                <ul className="grid grid-cols-2">
+                <ul className="grid grid-cols-2 text-left">
                 <li>
                 Annual & Quarterly Bonuses
                 </li>
@@ -207,9 +248,22 @@ export default function Jobs() {
                 </ul>
               </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel>
+            <AccordionTitle>Personal Goals</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Make Connections</li>
+                    <li>Use this as an opportunity to springboard into either a higher position or another company</li>
+                    <li>Keep up to date with the latest developments in the industry</li>
+                    <li>Further my Education</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
           </Accordion>
           <div className='flex justify-center'>
-            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg/30 bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Application Engineer</p>
             <Link href={'https://intel.wd1.myworkdayjobs.com/en-US/External/details/Software-Application-Engineer_JR0271818?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
             <div className='flex justify-around py-5'>
@@ -234,7 +288,19 @@ export default function Jobs() {
           <div className="px-20 py-5 text-center">
           <p className='pb-3 font-semibold text-lg'>Salary Range: $96,500 to $165,000  </p>
           <p className="font-semibold text-xl pb-5">Since their founding in 1999, Rakuten has helped shape the way people shop online, offering Cash Back, deals and shopping rewards on the worlds largest selection of products and services. To date, our 20M+ members in the U.S. have earned over $3.2B in Cash Back at their favorite stores.</p>
-          <Accordion collapseAll>
+          <Accordion collapseAll className='bg-white'>
+          <AccordionPanel>
+            <AccordionTitle>Why do I Want to Work at: Rakuten?</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+              <ul className='list-disc text-left'>
+                    <li>Located in Japan; Opportunity to work internationally</li>
+                    <li>Good Benefits</li>
+                    <li>Further my horizons out of the US</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
             <AccordionPanel>
               <AccordionTitle>Benefits</AccordionTitle>
               <AccordionContent>
@@ -278,9 +344,22 @@ export default function Jobs() {
                 </ul>
               </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel>
+            <AccordionTitle>Personal Goals</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Make International Connections</li>
+                    <li>Work out of the US for at least a year</li>
+                    <li>Learn a second language</li>
+                    <li>Further my Education</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
           </Accordion>
           <div className='flex justify-center'>
-            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg/30 bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Software Engineer - Web</p>
           <Link href={'https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenRewards/details/Software-Engineer---Web_1026157?q=frontend'} className="underline text-blue-600">Job Opportunity</Link>
             <div className='flex justify-around py-5'>
@@ -306,7 +385,19 @@ export default function Jobs() {
           <p className="font-semibold text-xl pb-5">We design sustainable systems that are massively scalable—resulting in the greatest environmental benefit possible. Our energy generation and storage products work together with our electric vehicles to amplify their impact.</p>
 
           <div>
-          <Accordion collapseAll>
+          <Accordion collapseAll className='bg-white'>
+          <AccordionPanel>
+            <AccordionTitle>Why do I Want to Work at: Tesla?</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+              <ul className='list-disc text-left'>
+                    <li>One of the largest and leading EV companies in the world</li>
+                    <li>Innovative Business</li>
+                    <li>Good Benefits</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
             <AccordionPanel>
               <AccordionTitle>Benefits</AccordionTitle>
               <AccordionContent>
@@ -353,11 +444,23 @@ export default function Jobs() {
                 </ul>
               </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel>
+            <AccordionTitle>Personal Goals</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Make Connections</li>
+                    <li>Further Education</li>
+                    <li>Own a Tesla</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
           </Accordion>
             
           </div>
           <div className='flex justify-center'>
-            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg/30 bg-slate-100'>
                 
           <p className='p-3 text-xl font-semibold'>Backend Software Engineer, Diagnostics</p>
           <Link href={'https://www.tesla.com/careers/search/job/internship-backend-software-engineer-diagnostics-fall-2025--240872'} className="underline text-blue-600">Job Opportunity</Link>
@@ -380,9 +483,22 @@ export default function Jobs() {
         </Link>
           </div>
           <div className="px-20 py-5 text-center">
-            <p className='pb-3 font-semibold text-lg'>Salary Range: $31,600 - $77,965</p>
+            <p className='pb-3 font-semibold text-lg'>Salary Range: $31,600 - $78,000</p>
             <p className="font-semibold text-xl pb-5">Costco is a membership warehouse club, dedicated to bringing our members the best possible prices on quality brand-name merchandise. With hundreds of locations worldwide, Costco provides a wide selection of merchandise, plus the convenience of specialty departments and exclusive member services, all designed to make your shopping experience a pleasurable one.</p>
-            <Accordion collapseAll>
+            <Accordion collapseAll className='bg-white'>
+            <AccordionPanel>
+            <AccordionTitle>Why do I Want to Work at: Costco?</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+              <ul className='list-disc text-left'>
+                    <li>Doesn't require a background in web development</li>
+                    <li>Stable Job while looking for a job in programing</li>
+                    <li>Great Benefits</li>
+                    <li>Chicken Paremsan</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
             <AccordionPanel>
               <AccordionTitle>Benefits</AccordionTitle>
               <AccordionContent>
@@ -444,12 +560,24 @@ export default function Jobs() {
                 </ul>
               </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel>
+            <AccordionTitle>Personal Goals</AccordionTitle>
+              <AccordionContent>
+                <div className='p-2'>
+                <ul className='list-disc text-left'>
+                    <li>Get a stable income</li>
+                    <li>Get hands on work experience that does not involve coding</li>
+                    <li>Chicken Parmesan</li>
+                </ul>
+                </div>
+              </AccordionContent>
+              </AccordionPanel>
           </Accordion>
           <div className='flex justify-center'>
-            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg bg-slate-100'>
+            <div className='w-[500px] border-solid border-1 border-black p-5 m-2 rounded-xl shadow-lg/30 bg-slate-100'>
           <p className='p-3 text-xl font-semibold'>Any Position</p>
             <Link href={'https://cta.cadienttalent.com/index.jsp?POSTING_ID=9129789790&LOCATION_ID=9129639552&locale=en_US&SEQ=postingLocationDetails&applicationName=CostcoNonReqExt'} className="underline text-blue-600">Job Opportunity</Link>
-            <p className="text-slate-500 text-left">Notes: It would be nice to work at Costco</p>
+            <p className="text-slate-500 text-left">Notes: Not strictly coding related, it would be nice to work at Costco</p>
             </div>            
           </div>
           </div>
